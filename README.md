@@ -1,6 +1,5 @@
-# Digi Mall
-Online shopping mall Digi-Mall
-
+# Giphy Search
+Gif searching tool
 # run
 `npm install`
 `npm start`
