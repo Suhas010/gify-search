@@ -1,0 +1,90 @@
+.card-container {
+  height: 500px;
+  width: 350px;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  justify-content: unset;
+  margin: 10px 10px 50px 10px;
+  padding: 15px;
+  .price {
+    position: relative;
+    flex-direction: column;
+    background: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid gray;
+    font-weight: bold;
+    width: 60px;
+    text-align: center;
+    top: -52px;
+    right: -10px;
+    font-size: 12px;
+    .amount {
+      border-bottom: solid 1px gray;
+    }
+    .unit {
+      font-size: 12px;
+    }
+  }
+  .actions {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  img {
+    height: 250px;
+    width: 315px;
+  }
+  .title {
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    height: 30px;
+    text-align: center;
+  }
+  .sub-title {
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 250px;
+    overflow: hidden;
+    p {
+      margin-top: 0;
+      margin-bottom: 0em;
+      display: -webkit-box;
+      text-align: center;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .card-container {
+    width: 200px;
+    height: 100px;
+    .title {
+      font-size: 12px;
+    }
+    .value {
+      font-size: 16px;
+    }
+  }
+}
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  .ant-input-number {
+    background-color: white;
+    color: #020101;
+    width: 50px;
+    padding: 5px;
+  }
+  .anticon {
+    border: solid 1px gray;
+    border-radius: 17px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+  }
+}

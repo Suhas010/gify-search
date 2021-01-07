@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header  should render successfully 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    EMI Calculator
+    🤟😎
+    <img
+      alt="Sun Icon"
+      class="theam-icon"
+      src="medly-test-file-stub"
+    />
+  </div>
+</div>
+`;
